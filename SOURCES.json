@@ -15,6 +15,12 @@
       "metadata_to_keep": ["sentence_id", "author", "license", "url"]
     }
   ],
-  "generated_books": []
+  "generated_books": [
+    {"id": "cet4", "path": "books/cet4.json", "words": 3849, "missing_examples": 0},
+    {"id": "cet6", "path": "books/cet6.json", "words": 5407, "missing_examples": 0},
+    {"id": "gk", "path": "books/gk.json", "words": 3677, "missing_examples": 0},
+    {"id": "ielts", "path": "books/ielts.json", "words": 5040, "missing_examples": 0},
+    {"id": "toefl", "path": "books/toefl.json", "words": 6974, "missing_examples": 0},
+    {"id": "gre", "path": "books/gre.json", "words": 7504, "missing_examples": 0}
+  ]
 }
-

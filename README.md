@@ -11,9 +11,30 @@ Use a raw GitHub URL or a release asset URL:
 
 ```powershell
 python -m danwords books download `
-  --book-url https://raw.githubusercontent.com/<owner>/danwords-books/main/books/cet4.json `
+  --book-url https://raw.githubusercontent.com/42ium/danwords-books/main/books/cet4.json `
   --select
 ```
+
+DanWords presets use this repository by default:
+
+```powershell
+python -m danwords books download --preset cet4 --select
+```
+
+## Published Books
+
+```text
+cet4.json   3849 words, all with examples
+cet6.json   5407 words, all with examples
+gk.json     3677 words, all with examples
+ielts.json  5040 words, all with examples
+toefl.json  6974 words, all with examples
+gre.json    7504 words, all with examples
+```
+
+Examples are selected from Tatoeba where possible. Remaining gaps are filled
+with clearly marked `DanWords fallback` examples so no word has an empty
+`example` field.
 
 ## Repository Layout
 
@@ -50,4 +71,3 @@ each word should preserve the example source in `sources.example` when available
 
 Use `--require-examples` during generation when a book is expected to have an
 example for every word.
-
