@@ -1,0 +1,6 @@
+resources/
+tmp/
+*.part
+*.log
+__pycache__/
+

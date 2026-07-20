@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "id": "ecdict",
+      "name": "ECDICT",
+      "url": "https://github.com/skywind3000/ECDICT",
+      "used_for": ["term", "meaning", "phonetic", "tags", "frequency"]
+    },
+    {
+      "id": "tatoeba",
+      "name": "Tatoeba",
+      "url": "https://tatoeba.org/",
+      "downloads_url": "https://tatoeba.org/en/downloads",
+      "used_for": ["example"],
+      "metadata_to_keep": ["sentence_id", "author", "license", "url"]
+    }
+  ],
+  "generated_books": []
+}
+
