@@ -1,13 +1,13 @@
-# Notices
+﻿# Notices
 
-This repository contains generated DanWords word books.
+This repository contains generated DanCLI word books.
 
 Generated files may include data derived from:
 
 - ECDICT, used for headwords, Chinese meanings, phonetics, tags, and frequency metadata.
 - Tatoeba, used for example sentences when a generated book includes sentence examples.
 
-The generated books are assembled and filtered by the DanWords project. Source
+The generated books are assembled and filtered by the DanCLI project. Source
 licenses still apply to the corresponding data fields. Do not remove source
 metadata from generated JSON files.
 

@@ -1,6 +1,6 @@
-# Generated Books
+﻿# Generated Books
 
-Put generated DanWords JSON books here.
+Put generated DanCLI JSON books here.
 
 Expected examples:
 

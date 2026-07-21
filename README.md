@@ -1,24 +1,24 @@
-# DanWords Books
+﻿# DanCLI Books
 
-Prebuilt DanWords word books.
+Prebuilt DanCLI word books.
 
 This repository is intended to publish generated `books/*.json` files that can
-be installed by DanWords users without rebuilding from source datasets.
+be installed by DanCLI users without rebuilding from source datasets.
 
 ## Install A Book
 
 Use a raw GitHub URL or a release asset URL:
 
 ```powershell
-python -m danwords books download `
-  --book-url https://raw.githubusercontent.com/42ium/danwords-books/main/books/cet4.json `
+python -m dancli books download `
+  --book-url https://raw.githubusercontent.com/42ium/dancli-books/main/books/cet4.json `
   --select
 ```
 
-DanWords presets use this repository by default:
+DanCLI presets use this repository by default:
 
 ```powershell
-python -m danwords books download --preset cet4 --select
+python -m dancli books download --preset cet4 --select
 ```
 
 ## Published Books
@@ -33,13 +33,13 @@ gre.json    7504 words, all with examples
 ```
 
 Examples are selected from Tatoeba where possible. Remaining gaps are filled
-with clearly marked `DanWords fallback` examples so no word has an empty
+with clearly marked `DanCLI fallback` examples so no word has an empty
 `example` field.
 
 ## Repository Layout
 
 ```text
-books/          Generated DanWords JSON books
+books/          Generated DanCLI JSON books
 examples/       Small hand-written or curated example tables
 resources/      Local-only downloaded source data, ignored by git
 scripts/        Build helpers

@@ -1,5 +1,5 @@
-param(
-    [string]$DanWordsRoot = "..",
+﻿param(
+    [string]$DanCLIRoot = "..",
     [string]$Ecdict = ".\resources\ecdict.csv",
     [string]$Examples = ".\resources\examples.csv",
     [switch]$RequireExamples
@@ -20,9 +20,9 @@ if (-not (Test-Path $Ecdict)) {
     throw "Missing ECDICT CSV: $Ecdict"
 }
 
-$builder = Join-Path $DanWordsRoot "tools\build_book.py"
+$builder = Join-Path $DanCLIRoot "tools\build_book.py"
 if (-not (Test-Path $builder)) {
-    throw "Missing DanWords builder: $builder"
+    throw "Missing DanCLI builder: $builder"
 }
 
 New-Item -ItemType Directory -Force -Path ".\books" | Out-Null
